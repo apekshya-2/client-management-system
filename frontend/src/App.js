@@ -1,13 +1,13 @@
-import ClientList from "./components/ClientList";
-import AddClient from "./components/AddClient";
+import './App.css'
+import React from "react";
+import Login from "./component/Login"; 
 
-function App() {
-  return (
+import 'bootstrap/dist/css/bootstrap.min.css'
+function App(){
+  return(
     <>
-      <AddClient />
-      <ClientList />
+    <Login/>
     </>
-  );
+  )
 }
-
-export default App;
+export default App

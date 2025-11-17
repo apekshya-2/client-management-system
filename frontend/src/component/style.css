@@ -1,0 +1,15 @@
+.loginForm {
+    background-color: rgba(1,32,93,0.6);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.loginForm h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.loginForm input {
+    margin-bottom: 1rem;
+}
